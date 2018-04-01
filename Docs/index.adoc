@@ -1,0 +1,51 @@
+= ScreenToGif Developer Documentation
+Nicke Manarin <nicke@outlook.com.br>; Lam Le <nguyenlam1997@gmail.com>
+:icons: font
+:toc: left
+:toclevels: 3
+ifdef::backend-html5[]
+:source-highlighter: coderay
+endif::[]
+:sectnumlevels: 5
+:sectnums:
+:sectlinks:
+:ext-relative: adoc
+
+// URIs:
+:uri-repo: https://github.com/nguyenlamlll/ScreenToGif
+:uri-docs: {uri-repo}/Docs
+
+== Overview
+ScreenToGif allows you to record a selected area of your screen, live feed from your webcam or live drawings from a sketchboard. Afterwards, you can edit and save the animation as a gif or video.
+
+Feel free to explore the {uri-docs}/[documentations].
+
+== Quick Start
+
+To build and run ScreenToGif from Source, you need:
+
+* Visual Studio 2017 with .NET desktop development workload.
+* .Net Framework 4.6.1 or above.
+
+== UI Components
+
+=== Main Windows
+There are four main windows which are Editor, Board, Webcam, Recorder. You can find these files directly under `Windows` folder.
+
+* {uri-docs}/Editor[Editor]
+* Board
+* Webcam
+* Recorder
+ 
+
+=== Dialogs and Others
+The other windows are stored in `Windows/Other` directory.
+
+=== Custom Controls
+
+
+
+=== Themes
+
+
+== Core Logic Components
